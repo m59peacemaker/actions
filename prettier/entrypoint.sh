@@ -10,6 +10,7 @@ lint() {
 }
 
 fix() {
+	_git_changed_files
 	_git_changed_files | xargs npx prettier --write
 }
 
