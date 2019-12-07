@@ -9,7 +9,7 @@ LABEL "repository"="http://github.com/bltavares/actions"
 LABEL "homepage"="http://github.com/bltavares/actions"
 LABEL "maintainer"="Bruno Tavares <connect+githubactions@bltavares.com>"
 
-RUN npm install -g prettier@1.17.0
+RUN npm install -g prettier@1.19.1
 
 RUN apk --no-cache add \
   curl~=7 \
