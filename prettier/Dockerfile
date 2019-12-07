@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:8-alpine3.9
 
 LABEL "com.github.actions.name"="prettier"
 LABEL "com.github.actions.description"="An opinionated code formatter, Supports many languages, Has few options"
